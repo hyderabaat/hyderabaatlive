@@ -53,7 +53,7 @@ protected void Button2_Click(object sender, EventArgs e)
         <asp:TextBox ID="TextBox3" runat="server" style="z-index: 1; left: 2px; top: 110px; position: absolute; width: 503px"></asp:TextBox>
         <asp:TextBox ID="TextBox4" runat="server" style="z-index: 1; left: 6px; top: 155px; position: absolute; width: 86px"></asp:TextBox>
         <asp:Button ID="Button2" runat="server" style="z-index: 1; left: 7px; top: 197px; position: absolute" Text="Update" OnClick="Button2_Click" />
-         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" style="z-index: 1; left: 47px; top: 367px; position: absolute; height: 133px; width: 528px">
+         <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" style="z-index: 1500; left: 47px; top: 367px; position: absolute; height: 133px; width: 528px">
              <Columns>
                  <asp:BoundField DataField="centername" HeaderText="centername" SortExpression="centername" />
                  <asp:BoundField DataField="centerurl" HeaderText="centerurl" SortExpression="centerurl" />
