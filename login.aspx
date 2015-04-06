@@ -20,7 +20,7 @@ protected void Button2_Click(object sender, EventArgs e)
 {
     SqlDataSource1.SelectCommand = "SELECT * FROM livetable";
 
-    SqlDataSource1.UpdateCommand = "UPDATE livetable SET centername='" + TextBox2.Text + ", centerurl=" + TextBox3.Text + ",active=" + TextBox4.Text;
+    SqlDataSource1.UpdateCommand = "UPDATE livetable SET centername='" + TextBox2.Text + "', centerurl='" + TextBox3.Text + "',active='" + TextBox4.Text + "'";
     SqlDataSource1.Update();
     Label6.Text = "updated successfully";
 }
